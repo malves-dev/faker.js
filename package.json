@@ -1,13 +1,14 @@
 {
   "name": "faker",
-  "description": "Generate massive amounts of fake contextual data",
-  "version": "4.1.0",
+  "description": "Generate fake data from people.",
+  "version": "1.0.0",
   "contributors": [
+    "Malves <malves.dev@gmail.com>",
     "Marak Squires <marak.squires@gmail.com>"
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/Marak/Faker.js.git"
+    "url": "http://github.com/malves.dev/Faker.js.git"
   },
   "scripts": {
     "lint": "node_modules/.bin/jshint ./lib --config ./.jshintrc",
@@ -42,26 +43,28 @@
     "report-dir": "./reports/coverage"
   },
   "devDependencies": {
-    "browserify": "5.11.1",
-    "coveralls": "^2.13.1",
-    "gulp": "^3.9.1",
+    "browserify": "^16.2.3",
+    "coveralls": "^3.0.3",
+    "gulp": "^4.0.1",
     "gulp-gh-pages": "^0.5.4",
     "gulp-jsdoc3": "^0.2.1",
-    "gulp-mustache": "0.4.0",
+    "gulp-mustache": "^4.1.1",
     "gulp-rename": "1.2.0",
-    "gulp-uglify": "1.0.1",
+    "gulp-uglify": "^3.0.2",
     "ink-docstrap": "1.1.4",
-    "jsdoc": "^3.4.0",
-    "jshint": "0.9.0",
+    "jsdoc": "^3.6.0",
+    "jshint": "^2.10.2",
     "lodash": "^4.6.1",
-    "mocha": "^3.2.0",
+    "mocha": "^6.1.4",
     "node-minify": "*",
     "optimist": "0.3.5",
     "sinon": "1.4.2",
     "through2": "2.0.0",
-    "vinyl-transform": "0.0.1"
+    "vinyl-transform": "^1.0.0"
   },
   "license": "MIT",
   "main": "index.js",
-  "dependencies": {}
+  "dependencies": {
+    "g": "^2.0.1"
+  }
 }
