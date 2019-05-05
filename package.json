@@ -8,7 +8,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/malves.dev/Faker.js.git"
+    "url": "http://github.com/malves-dev/Faker.js.git"
   },
   "scripts": {
     "lint": "node_modules/.bin/jshint ./lib --config ./.jshintrc",
