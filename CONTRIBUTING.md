@@ -19,7 +19,13 @@ browsers. Keep this in mind, when modifying and/or extending the sources.
 
 ## Architecture
 
+English
 The sources are located in the [lib](lib) directory. All fake data generators are
 divided into namespaces (each namespace being a separate module). Most of the
 generators use the *definitions*, which are just plain JavaScript
 objects/arrays/strings that are separate for each [locale](lib/locales).
+
+Portuguese
+As fontes estão localizadas no diretório [lib] (lib). Todos os geradores de dados falsos são
+dividido em namespaces (cada namespace sendo um módulo separado). A maioria dos
+geradores usam as *definições*, que são apenas JavaScript objects/arrays/strings separadas para cada [localidade] (lib/locales).
